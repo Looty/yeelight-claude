@@ -1,0 +1,8 @@
+{
+  "_comment": "Example only: copy to config.json and put in your own values. Every part is optional: delete any id or host you don't know, or the whole lights block, and the lights are found by SSDP discovery (by model). A configured id that isn't found is never replaced by another device. host is only a starting IP (discovered IPs are cached in ip-cache.json). location (decimal degrees, north and east positive) is needed only by daylight.js; 51.48, 0.0 is Greenwich.",
+  "lights": {
+    "strip": { "id": "0x0000000012345678", "host": "192.168.1.50" },
+    "bulb": { "id": "0x0000000087654321", "host": "192.168.1.51" }
+  },
+  "location": { "lat": 51.48, "lon": 0.0 }
+}

@@ -1,0 +1,17 @@
+# Allowlist: only the files below are published. Everything else here is local state
+# (config.json, ip-cache.json, snapshots, logs, markers, the tray build and its own repo in tray/).
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/config.example.json
+!/yeelight.js
+!/snapshot.js
+!/status-hook.js
+!/effects.js
+!/preview-working.js
+!/daylight.js
+!/install-daylight.ps1
+!/mcp-server.js
+!/test-hook.js
+!/test-mcp.js
